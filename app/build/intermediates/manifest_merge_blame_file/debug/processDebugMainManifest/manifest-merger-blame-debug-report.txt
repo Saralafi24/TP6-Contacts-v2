@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="fr.tp.contacts"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10
+11    <permission
+11-->[androidx.core:core:1.13.0] C:\Users\Admin\.gradle\caches\9.0.0\transforms\27f34fde071be7505a053457a8d97bc6\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+12        android:name="fr.tp.contacts.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.13.0] C:\Users\Admin\.gradle\caches\9.0.0\transforms\27f34fde071be7505a053457a8d97bc6\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.13.0] C:\Users\Admin\.gradle\caches\9.0.0\transforms\27f34fde071be7505a053457a8d97bc6\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="fr.tp.contacts.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.13.0] C:\Users\Admin\.gradle\caches\9.0.0\transforms\27f34fde071be7505a053457a8d97bc6\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.13.0] C:\Users\Admin\.gradle\caches\9.0.0\transforms\27f34fde071be7505a053457a8d97bc6\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\Admin\Downloads\TP_Android_Liste_Contacts\app\src\main\AndroidManifest.xml:2:5-7:19
+18        android:allowBackup="true"
+18-->C:\Users\Admin\Downloads\TP_Android_Liste_Contacts\app\src\main\AndroidManifest.xml:2:79-105
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.13.0] C:\Users\Admin\.gradle\caches\9.0.0\transforms\27f34fde071be7505a053457a8d97bc6\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:label="Mes contacts"
+22-->C:\Users\Admin\Downloads\TP_Android_Liste_Contacts\app\src\main\AndroidManifest.xml:2:50-78
+23        android:supportsRtl="true"
+23-->C:\Users\Admin\Downloads\TP_Android_Liste_Contacts\app\src\main\AndroidManifest.xml:2:106-132
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\Admin\Downloads\TP_Android_Liste_Contacts\app\src\main\AndroidManifest.xml:2:18-49
+26        <activity
+26-->C:\Users\Admin\Downloads\TP_Android_Liste_Contacts\app\src\main\AndroidManifest.xml:3:9-77
+27            android:name="fr.tp.contacts.DetailActivity"
+27-->C:\Users\Admin\Downloads\TP_Android_Liste_Contacts\app\src\main\AndroidManifest.xml:3:19-49
+28            android:exported="false" />
+28-->C:\Users\Admin\Downloads\TP_Android_Liste_Contacts\app\src\main\AndroidManifest.xml:3:50-74
+29        <activity
+29-->C:\Users\Admin\Downloads\TP_Android_Liste_Contacts\app\src\main\AndroidManifest.xml:4:9-6:20
+30            android:name="fr.tp.contacts.MainActivity"
+30-->C:\Users\Admin\Downloads\TP_Android_Liste_Contacts\app\src\main\AndroidManifest.xml:4:19-47
+31            android:exported="true" >
+31-->C:\Users\Admin\Downloads\TP_Android_Liste_Contacts\app\src\main\AndroidManifest.xml:4:48-71
+32            <intent-filter>
+32-->C:\Users\Admin\Downloads\TP_Android_Liste_Contacts\app\src\main\AndroidManifest.xml:5:13-154
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\Admin\Downloads\TP_Android_Liste_Contacts\app\src\main\AndroidManifest.xml:5:28-79
+33-->C:\Users\Admin\Downloads\TP_Android_Liste_Contacts\app\src\main\AndroidManifest.xml:5:36-77
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\Admin\Downloads\TP_Android_Liste_Contacts\app\src\main\AndroidManifest.xml:5:79-138
+35-->C:\Users\Admin\Downloads\TP_Android_Liste_Contacts\app\src\main\AndroidManifest.xml:5:89-136
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+40            android:name="androidx.startup.InitializationProvider"
+40-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:25:13-67
+41            android:authorities="fr.tp.contacts.androidx-startup"
+41-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:26:13-68
+42            android:exported="false" >
+42-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:27:13-37
+43            <meta-data
+43-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+44                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+44-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+45                android:value="androidx.startup" />
+45-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+46        </provider>
+47
+48        <receiver
+48-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+49            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+49-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+50            android:directBootAware="false"
+50-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+51            android:enabled="true"
+51-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+52            android:exported="true"
+52-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+53            android:permission="android.permission.DUMP" >
+53-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+54            <intent-filter>
+54-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+55                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+55-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+55-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+56            </intent-filter>
+57            <intent-filter>
+57-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+58                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+58-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+58-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+59            </intent-filter>
+60            <intent-filter>
+60-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+61                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+61-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+61-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+62            </intent-filter>
+63            <intent-filter>
+63-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+64                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+64-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+64-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\9.0.0\transforms\91ff27683e3fc66fc6fdc56cfd7ef053\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+65            </intent-filter>
+66        </receiver>
+67    </application>
+68
+69</manifest>

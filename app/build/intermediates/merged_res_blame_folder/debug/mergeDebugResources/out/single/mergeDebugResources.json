@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "fr.tp.contacts.app-debug-20:/layout_activity_main.xml.flat",
+        "source": "fr.tp.contacts.app-main-22:/layout/activity_main.xml"
+    },
+    {
+        "merged": "fr.tp.contacts.app-debug-20:/drawable_avatar_green.xml.flat",
+        "source": "fr.tp.contacts.app-main-22:/drawable/avatar_green.xml"
+    },
+    {
+        "merged": "fr.tp.contacts.app-debug-20:/drawable_avatar_rose.xml.flat",
+        "source": "fr.tp.contacts.app-main-22:/drawable/avatar_rose.xml"
+    },
+    {
+        "merged": "fr.tp.contacts.app-debug-20:/layout_activity_detail.xml.flat",
+        "source": "fr.tp.contacts.app-main-22:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "fr.tp.contacts.app-debug-20:/layout_row_contact.xml.flat",
+        "source": "fr.tp.contacts.app-main-22:/layout/row_contact.xml"
+    },
+    {
+        "merged": "fr.tp.contacts.app-debug-20:/drawable_avatar_blue.xml.flat",
+        "source": "fr.tp.contacts.app-main-22:/drawable/avatar_blue.xml"
+    }
+]

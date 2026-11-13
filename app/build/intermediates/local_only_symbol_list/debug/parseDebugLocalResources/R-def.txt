@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+drawable avatar_blue
+drawable avatar_green
+drawable avatar_rose
+id callButton
+id cancelButton
+id choosePhotoButton
+id contactList
+id detailPhoto
+id emailButton
+id emailInput
+id firstNameInput
+id lastNameInput
+id phoneInput
+id rowFullName
+id rowPhone
+id rowPhoto
+id saveButton
+id takePhotoButton
+layout activity_detail
+layout activity_main
+layout row_contact
+string app_name
+style AppTheme
